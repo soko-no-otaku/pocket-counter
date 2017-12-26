@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "pocket-counter",
+    "description": "Pocket のマイリスト記事数をインライン表示",
+    "version": "0.0.1",
+    "content_scripts": [
+        {
+            "matches": ["https://getpocket.com/a/queue/list/"],
+            "js": ["myscript.js"]
+        }
+    ]
+}
