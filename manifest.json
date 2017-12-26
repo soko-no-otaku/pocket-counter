@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "content_scripts": [
         {
-            "matches": ["https://getpocket.com/a/queue/list/"],
+            "matches": ["https://getpocket.com/a/queue/*"],
             "js": ["myscript.js"]
         }
     ]
