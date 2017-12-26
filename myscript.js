@@ -7,6 +7,7 @@ function countArticles() {
     }
 
     document.getElementsByClassName("queue_title")[1].innerHTML += count;
+    document.title += count;
 }
 
 setTimeout(countArticles, 1000);
